@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/aka-manto",
     "maintainers": [
       {
@@ -16,71 +16,124 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "aka-manto",
-    "name": "Aka Manto (赤マント)",
-    "aliases": [],
-    "category": "GHOST_HAUNTING",
-    "subcategory": "Unknown",
-    "tags": [
-      "in-folklore"
+    "name": "Aka Manto",
+    "aliases": [
+      { "name": "赤マント", "language": "Japanese (kanji/katakana)", "meaning": "Red Cloak / Red Cape" },
+      { "name": "Aoi Manto", "language": "Japanese", "meaning": "Blue Cloak (companion variant)" },
+      { "name": "Red Cape" },
+      { "name": "Red Vest" },
+      { "name": "Kainade", "language": "Japanese (variant legend)" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "School / public-bathroom urban legend",
+    "tags": [
+      "japan",
+      "urban-legend",
+      "school-folklore",
+      "bathroom-ghost",
+      "yokai",
+      "showa-era",
+      "kuchisake-onna-related",
+      "hanako-san-related"
+    ],
+    "status": "active",
     "description": {
-      "summary": "First emerging in the post-World War II period but gaining widespread prominence in the 1980s and 1990s, the legend reflects deep-seated cultural anxieties about privacy, vulnerability, bodily functions, and the liminal spaces of modern institutions.",
-      "full": "First emerging in the post-World War II period but gaining widespread prominence in the 1980s and 1990s, the legend reflects deep-seated cultural anxieties about privacy, vulnerability, bodily functions, and the liminal spaces of modern institutions. The bathroom setting—a private space within a public environment—creates the perfect psychological backdrop for this terror. The legend has evolved significantly over decades, adapting to contemporary fears while maintaining its core narrative: a choice offered in the most vulnerable moment becomes a fatal trap. Unlike many spirits that can be appeased or avoided through proper behavior, Aka Manto presents an impossible situation—every choice leads to doom, making it a particularly nihilistic specter."
+      "summary": "Aka Manto ('Red Cloak') is a Japanese urban legend about a masked, red-cloaked spirit who haunts public and school toilets and asks the occupant to choose between red or blue toilet paper (or red or blue cloak). Either choice ends in death; only refusal lets the victim escape.",
+      "full": "Aka Manto (赤マント, 'Red Cloak'), also known as Red Cape, Red Vest, or in some regional variants Aoi Manto ('Blue Cloak'), is a long-standing Japanese urban legend told in schoolyards from at least the 1930s. According to the most common form of the tale, a masked male spirit wearing a flowing red cloak appears to people sitting on the toilet in a public or school bathroom — typically the last stall, late at night — and asks whether they want red paper or blue paper. Choosing red causes the victim to be slashed or flayed until their blood soaks through their clothes, producing the 'red cloak'; choosing blue causes them to be strangled or drained of blood until their skin turns blue. Naming any other colour brings a worse death (often being dragged into the floor or 'underworld'). Survival requires either ignoring the spirit or refusing both options. Variant forms swap the toilet paper for cloaks or capes, or substitute the Kainade legend in which a hairy yokai's coloured arm reaches up from inside the toilet. According to folklorist Matthew Meyer, accounts circulate from as early as the 1930s; one tradition places the legend's origin in an Osaka elementary school around 1935, with the legend reaching Tokyo within a year or two and spreading to Kitakyushu and Japanese-administered Korea by 1940. The historic word 'manto' originally referred to a sleeveless kimono-style jacket and only later came to mean a Western-style cloak, which has produced generational variation in retellings. Aka Manto sits within a network of Japanese school-toilet legends including Hanako-san, the Akaname, Teke Teke, and Kuchisake-onna."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese; combination of 赤 (aka, 'red') and マント (manto, originally a sleeveless kimono jacket, later a Western-style cloak or cape).",
+      "meaning": "'Red Cloak' or 'Red Cape'.",
+      "first_use": "School-yard rumour from at least the 1930s; the term 'manto' shifts in meaning across the 20th century, producing both 'red coat / vest' and 'red cloak / cape' descriptions of the entity."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "GHOST_HAUNTING",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Urban legend / school-bathroom ghost",
+      "subtype": "Choice-based malevolent spirit",
+      "variant": "Japanese (Showa-era origin)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hanako-san", "name": "Hanako-san", "relationship": "similar", "description": "Female schoolgirl ghost said to haunt school toilets, especially the third stall" },
+      { "id": "kuchisake-onna", "name": "Kuchisake-onna", "relationship": "similar", "description": "Slit-mouthed woman urban legend with a similar choice-based killing structure" },
+      { "id": "akaname", "name": "Akaname", "relationship": "related", "description": "Yokai associated with dirty bathrooms" },
+      { "id": "teke-teke", "name": "Teke Teke", "relationship": "similar", "description": "Legless schoolyard ghost from Japanese urban legend" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Red cloak", "description": "A flowing red cloak, cape, or coat — the defining attribute of the entity.", "frequency": "always" },
+        { "feature": "White mask", "description": "A white mask covering the face; in some accounts the face beneath is described as supernaturally beautiful.", "frequency": "common" },
+        { "feature": "Male presentation", "description": "Almost always presented as a male spirit, though some variants leave the gender ambiguous.", "frequency": "common" }
+      ],
+      "morphology": "A humanoid spirit form, the visible features of which are entirely determined by costume (red cloak, white mask)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Manifestation in toilet stalls", "description": "Appears in occupied public or school toilet stalls, usually the last stall, late at night.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Choice-based killing", "description": "Offers the victim a binary choice (red or blue paper / cloak); either answer is lethal in a colour-coded way (slashing for red, strangulation/exsanguination for blue).", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Punishment of alternative choices", "description": "Naming a colour other than red or blue brings being dragged through the floor to the underworld in many tellings.", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Survivable refusal", "description": "Can be escaped by ignoring or explicitly refusing both options.", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["public bathrooms", "school toilets", "the last (often fourth) toilet stall"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Targets people alone in toilet stalls late at night",
+        "Frames its attack as an apparently neutral choice",
+        "Punishes deviation from its expected script"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originally a Japanese school-yard legend; widely retold across Japan and exported through pop culture to East Asia, North America, and beyond.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Osaka", "Tokyo", "Kitakyushu", "Korean Peninsula (under Japanese administration in 1940)"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1930s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Schoolyard rumour reported by Matthew Meyer and other Japanese-folklore writers"
+      },
+      "peak_activity_periods": [
+        { "period": "1930s–1940s", "description": "Pre-war and wartime spread from Osaka through Tokyo and Kitakyushu to Japanese-administered Korea" },
+        { "period": "1980s–1990s", "description": "Resurgence of the legend with the wider Japanese 'school horror' boom" },
+        { "period": "2000s–2020s", "description": "Global spread through anime, video games, and films" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Japanese school-yard storytelling of the early Showa era (1920s–30s); shaped by anxieties about the modern public bathroom, schoolyard rumour, and the era's red-cloaked criminal scares.",
+      "earliest_accounts": "Reports as early as the 1930s; one tradition fixes the origin around 1935 in an Osaka elementary school.",
+      "folklore_connections": "Closely linked to other school-toilet legends (Hanako-san), to choice-based killing legends (Kuchisake-onna), and to bathroom yokai (Akaname)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1935-01-01", "event": "Aka Manto reportedly originates in an Osaka elementary school, according to a tradition recorded by Matthew Meyer", "significance": "Earliest dating of the legend in the secondary literature", "source": "Wikipedia: Aka Manto, citing Matthew Meyer" },
+      { "date": "1940-01-01", "event": "The legend reaches Kitakyushu and Japanese-administered Korea", "significance": "First documented spread beyond Honshu", "source": "Wikipedia: Aka Manto" },
+      { "date": "2000-10-22", "event": "Aka Manto appears as the antagonist of episode 2 of the anime Ghost Stories (Gakkō no Kaidan)", "significance": "Major anime exposure", "source": "Ghost Stories (anime), 2000" },
+      { "date": "2017-10-02", "event": "Eric Grundhauser publishes 'Aka Manto Is the Bathroom Ghost That Wants You to Choose Wisely' in Atlas Obscura", "significance": "Notable English-language coverage", "source": "Grundhauser, Atlas Obscura, 2017-10-02" },
+      { "date": "2019-01-01", "event": "Indie horror studio Chilla's Art releases the Aka Manto video game", "significance": "Modern interactive retelling of the legend", "source": "Chilla's Art (2019)" },
+      { "date": "2021-09-17", "event": "Squid Game premieres on Netflix; director Hwang Dong-hyuk later confirms its red/blue card colour scheme is a nod to Aka Manto", "significance": "Mass-audience exposure to the legend's choice motif", "source": "Director interview cited in Wikipedia" }
+    ],
+    "modern_era": "Aka Manto remains a living urban legend told in Japanese schools and a recurring reference in international horror media, video games, and anime."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +144,130 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "aka-manto-evidence-meyer",
+        "type": "yokai compendium",
+        "name": "Matthew Meyer's Aka Manto entry",
+        "date": "2010s",
+        "description": "English-language documentation of the Aka Manto legend, including its 1930s origin and Osaka tradition.",
+        "status": "unverified",
+        "source": "Meyer, Matthew, yokai.com / The Hour of Meeting Evil Spirits"
+      },
+      {
+        "id": "aka-manto-evidence-grundhauser-2017",
+        "type": "article",
+        "name": "Atlas Obscura article",
+        "date": "2017-10-02",
+        "description": "Eric Grundhauser, 'Aka Manto Is the Bathroom Ghost That Wants You to Choose Wisely', Atlas Obscura.",
+        "status": "verified",
+        "source": "Atlas Obscura, 2017"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Vengeful spirit of a murdered handsome man",
+        "description": "Some folk versions say Aka Manto was once a handsome young man whose face had to be hidden; in death he persists as a vengeful onryō who appears in lavatories.",
+        "proponents": ["Variant tellers (folk)"],
+        "evidence_cited": ["Mask-and-cloak iconography", "Reports of unearthly attractiveness beneath the mask"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Schoolyard urban legend / moral tale",
+        "description": "Folklorists treat Aka Manto as a classic urban legend transmitted through Japanese schools, functioning as a rite-of-passage scare and a way of negotiating anxieties around modern public bathrooms.",
+        "proponents": ["Matthew Meyer", "Mainstream folklorists"],
+        "evidence_cited": ["Schoolyard origin", "Choice-based death structure typical of urban legends", "No physical reports of harm"]
+      },
+      {
+        "name": "Echo of Showa-era 'red cloak' criminal scares",
+        "description": "Some Japanese commentators link Aka Manto to recurring early-Showa newspaper scares about a red-cloaked stranger preying on children, which then merged with bathroom-ghost folklore.",
+        "proponents": ["Japanese folklore commentators cited via Wikipedia"],
+        "evidence_cited": ["Pre-war 'aka manto' newspaper scare reports"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Japanese schoolyard urban legends",
+        "Bathroom-spirit folklore (alongside Hanako-san and the Akaname)"
+      ],
+      "stories": [
+        "Standard Aka Manto encounter: 'red paper or blue paper?' choice",
+        "Aoi Manto / Blue Cloak variant",
+        "Kainade variant (a coloured hairy arm reaches up from inside the toilet)"
+      ],
+      "beliefs": "Aka Manto is treated as a hostile spirit specifically tied to public and school toilets; standard 'protective' responses involve refusing both options or saying nothing."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "Bathroom Readers' Institute — Uncle John's OLD FAITHFUL 30th Anniversary Bathroom Reader (2017)",
+        "Matthew Meyer — yokai.com / The Hour of Meeting Evil Spirits"
+      ],
+      "film_tv": [
+        "Ghost Stories (Gakkō no Kaidan) episode 2 (2000)",
+        "Hotel Del Luna episode 9 (2019)",
+        "Squid Game (Netflix, 2021) — director-confirmed reference"
+      ],
+      "games": [
+        "Castlevania: Aria of Sorrow — 'Killer Mantle' enemy (2003)",
+        "Aka Manto, Chilla's Art (2019)",
+        "World of Horror (full release 2023)",
+        "References in The Legend of Zelda series (Oracle of Ages, Skyward Sword, Majora's Mask)"
+      ],
+      "music": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Matthew Meyer", "affiliation": "Independent yokai researcher / yokai.com", "contribution": "Major English-language source on Aka Manto's history and origin", "period": "2010s–present" },
+      { "name": "Eric Grundhauser", "affiliation": "Atlas Obscura", "contribution": "2017 English-language feature article on Aka Manto", "period": "2017" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Aka Manto is regularly discussed in scholarship on Japanese urban legends and school-toilet folklore."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-aka-manto",
+      "type": "website",
+      "title": "Aka Manto",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aka_Manto",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "yokai-com-akamanto",
+      "type": "website",
+      "title": "Aka manto",
+      "authors": ["Matthew Meyer"],
+      "publication": "yokai.com",
+      "url": "https://yokai.com/akamanto/",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "atlas-obscura-akamanto-2017",
+      "type": "article",
+      "title": "Aka Manto Is the Bathroom Ghost That Wants You to Choose Wisely",
+      "authors": ["Eric Grundhauser"],
+      "publication": "Atlas Obscura",
+      "date": "2017-10-02",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
